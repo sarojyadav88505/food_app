@@ -29,7 +29,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     TextFormField(
                       decoration: InputDecoration(
                           hintText: 'Full Name',
-                          prefixIcon: Icon(Icons.email),
+                          prefixIcon: Icon(Icons.person),
                           fillColor: Colors.white,
                           filled: true),
                       validator: (value) => value.isEmpty ? 'requied' : null,
@@ -51,7 +51,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     TextFormField(
                       decoration: InputDecoration(
                           hintText: 'Password',
-                          prefixIcon: Icon(Icons.email),
+                          prefixIcon: Icon(Icons.lock),
                           fillColor: Colors.white,
                           filled: true),
                       validator: (value) => value.isEmpty ? 'requied' : null,
