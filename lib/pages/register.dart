@@ -82,7 +82,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           child: RaisedButton(
                             color: Theme.of(context).accentColor,
                             textColor: Colors.white,
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.pushReplacementNamed(context, 'login');
+                            },
                             child: Text(
                               "Register",
                               style: TextStyle(fontSize: 20),
